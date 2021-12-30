@@ -1,0 +1,215 @@
+body{
+    margin:0;
+    padding:0px;
+    font-family: 'IBM Plex Sans Thai';
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.box a:hover{
+    text-decoration: underline;
+}
+
+.sep{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding:8px 11px;
+    height: 64px;
+    font-weight: bold;
+    top:0;
+    position: fixed;
+    left: 0;
+    right:0;
+}
+
+.navbar_logo{
+    font-size: 24px;
+    color:white;
+}
+.navbar_menu{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.navbar_menu li{
+    padding: 8px 12px;
+}
+.navbar_menu a:hover{
+    color: rgb(54, 223, 54);
+}
+
+#visual {
+    background-color: rgb(252, 200, 208);
+	width:100%;
+	height:500px;
+}
+.btn1{
+    border: 1px solid black;
+    background: black;
+    height: 40px; 
+    width:150px; 
+    color:white;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    vertical-align: center;
+}
+.btn1 a:hover{
+    color:red;
+}
+.btn2{
+    border: 1px solid black;
+    height: 40px; 
+    width:150px; 
+    color:black;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    vertical-align: center;
+}
+.btn2 a:hover{
+    color:red;
+}
+#app {
+    background-color: rgb(249, 249, 249);
+	width:100%;
+	height:500px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.reason{
+    background-color: white;
+	width:100%;
+	height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-direction: column;
+}
+.culture{
+    background-color: white;
+	width:100%;
+	height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-direction: column;
+}
+#warp{
+    width: 650px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 10px;
+}
+article{
+    float: left;
+    display: flex;
+    margin-left: 150px;
+    margin-bottom: 0px;
+}
+#money {
+    background-color: rgb(249, 249, 249);
+	width:100%;
+    height:860px;
+    display:flex;
+	align-items: center;
+	flex-direction: column;
+}
+.month{
+    background: rgb(46, 119, 192);
+    height: 30px; 
+    width:100px; 
+    color:white;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    vertical-align: center;   
+}
+.box1{
+    width: 35%;
+    padding: 50px;
+    background-color: white;
+    flex :1;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 5px lightgrey;
+}
+.box2{
+    width: 35%;
+    padding: 50px;
+    background-color: white;
+    flex:1;
+    float: right;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 5px lightgrey;
+}
+.question {
+    background-color: rgb(249, 249, 249);
+	width:100%;
+    height:900px;
+    display:flex;
+	align-items: center;
+	flex-direction: column;
+}
+.box{
+    width: 80%;
+    height: 10%;
+    background-color: white;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+
+    flex-wrap:wrap ;
+    padding:8px 11px;
+    height: 500px;
+    font-weight: bold;
+    margin: 0 auto;
+    top:0;
+    left: 0;
+    right:0;
+}
+.foot_logo{
+    font-size: 35px;
+    color:white;
+    float: left;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+.footer-heading h3 {
+    color:lightgray;
+    margin-bottom: 2px;
+}
+
+.footer-heading a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.3erm;
+}
+.footer-heading a:hover {
+    color : rgb(54, 223, 54);
+}
+.foot2 a{
+    color: white;
+    text-decoration: none;
+}
+.foot2 a:hover {
+    color: rgb(54, 223, 54);
+}
